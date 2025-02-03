@@ -14,6 +14,9 @@
 
     <!-- tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flowbite cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.css" rel="stylesheet" />
+
 
     <!-- added custom property  -->
     <script>
@@ -36,6 +39,7 @@
                 },
                 backgroundImage: {
                     'banner': "linear-gradient(to top, rgba(0,0,0), transparent), url('./images/banner.png')",
+                    'client': "linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./images/banner.png')",
                 },
                 }
             }
@@ -95,7 +99,7 @@
         </div>
         
         <!-- Legal Area -->
-        <section class="my-28 px-5">
+        <section class="my-28">
             <div class="max-w-[1170px] mx-auto">
                 <!-- legal title  -->
                 <div class="text-center">
@@ -104,9 +108,9 @@
                 </div>
 
                 <!-- legal card  -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-3 md:gap-y-0-0 mt-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-3 md:gap-y-0 mt-16">
                     <!-- card  -->
-                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border md:border-l-transparent md:border-t-transparent">
+                    <div class="text-center pt-[56px] pb-[70px] px-[10px] md:px-[65px] border lg:border-l-transparent lg:border-t-transparent">
                         <img src="./images/business.png" class="mx-auto" alt="">
                         <div class="mt-10">
                             <h1 class="text-3xl text-dark2 font-semibold text-garamond">Business Law</h1>
@@ -121,10 +125,10 @@
                         </div>
                     </div>
                     <!-- card  -->
-                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border md:border-t-transparent">
-                        <img src="./images/business.png" class="mx-auto" alt="">
+                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border lg:border-t-transparent">
+                        <img src="./images/criminal.png" class="mx-auto" alt="">
                         <div class="mt-10">
-                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Business Law</h1>
+                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Criminal Law</h1>
                             <p class="text-[16px] text-dark3 my-5 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                             <div>
                                 <a href="#">
@@ -136,10 +140,10 @@
                         </div>
                     </div>
                     <!-- card  -->
-                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border md:border-t-transparent md:border-r-transparent">
-                        <img src="./images/business.png" class="mx-auto" alt="">
+                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border lg:border-t-transparent lg:border-r-transparent">
+                        <img src="./images/child.png" class="mx-auto" alt="">
                         <div class="mt-10">
-                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Business Law</h1>
+                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Child Support</h1>
                             <p class="text-[16px] text-dark3 my-5 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                             <div>
                                 <a href="#">
@@ -151,10 +155,10 @@
                         </div>
                     </div>
                     <!-- card  -->
-                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border md:border-l-transparent md:border-b-transparent">
-                        <img src="./images/business.png" class="mx-auto" alt="">
+                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border lg:border-l-transparent lg:border-b-transparent">
+                        <img src="./images/education.png" class="mx-auto" alt="">
                         <div class="mt-10">
-                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Business Law</h1>
+                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Education Law</h1>
                             <p class="text-[16px] text-dark3 my-5 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                             <div>
                                 <a href="#">
@@ -166,10 +170,10 @@
                         </div>
                     </div>
                     <!-- card  -->
-                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border md:border-b-transparent">
-                        <img src="./images/business.png" class="mx-auto" alt="">
+                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border lg:border-b-transparent">
+                        <img src="./images/divorce.png" class="mx-auto" alt="">
                         <div class="mt-10">
-                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Business Law</h1>
+                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Divorce Law</h1>
                             <p class="text-[16px] text-dark3 my-5 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                             <div>
                                 <a href="#">
@@ -181,10 +185,10 @@
                         </div>
                     </div>
                     <!-- card  -->
-                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border md:border-b-transparent md:border-r-transparent">
-                        <img src="./images/business.png" class="mx-auto" alt="">
+                    <div class="text-center pt-[56px] pb-[70px] px-[65px] border lg:border-b-transparent lg:border-r-transparent">
+                        <img src="./images/tax.png" class="mx-auto" alt="">
                         <div class="mt-10">
-                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Business Law</h1>
+                            <h1 class="text-3xl text-dark2 font-semibold text-garamond">Tax Law</h1>
                             <p class="text-[16px] text-dark3 my-5 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                             <div>
                                 <a href="#">
@@ -199,6 +203,90 @@
                 </div>
             </div>
         </section>
+
+        <!-- client section  -->
+        <section class="my-28">
+            <div class="max-w-[1170px] mx-auto">
+                <!-- legal title  -->
+                <div class="text-center mb-16">
+                    <h1 class="text-2xl md:text-4xl text-dark2 text-garamond font-semibold">What Our Client Say</h1>
+                    <p class="text-[16px] text-dark3 md:w-3/5 mx-auto mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+
+                <!-- client carusel -->
+                
+                <div class="bg-client bg-no-repeat bg-center bg-cover py-[70px] rounded-lg ">
+
+                    <div id="animation-carousel" class="relative w-full" data-carousel="static">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-48 overflow-hidden rounded-lg md:h-80">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <div class="px-24 space-y-3">
+                                    <div class="text-center text-dark7 space-y-2">
+                                        <img src="./images/ellipse.png" class="mx-auto" alt="">
+                                        <h5 class="text-2xl font-bold">Awlad Hossain</h5>
+                                        <p>UIX Designer</p>
+                                    </div>
+                                    <div class="hidden md:block">
+                                        <p class="text-dark6 text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <div class="px-24 space-y-3">
+                                    <div class="text-center text-dark7 space-y-2">
+                                        <img src="./images/ellipse.png" class="mx-auto" alt="">
+                                        <h5 class="text-2xl font-bold">Kalid Hossain</h5>
+                                        <p>UIX Designer</p>
+                                    </div>
+                                    <div class="hidden md:block">
+                                        <p class="text-dark6 text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, cumque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptate officia laboriosam, neque delectus eos quas soluta dolor quibusdam veritatis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+                                <div class="px-24 space-y-3">
+                                    <div class="text-center text-dark7 space-y-2">
+                                        <img src="./images/ellipse.png" class="mx-auto" alt="">
+                                        <h5 class="text-2xl font-bold">Erfaan Hossain</h5>
+                                        <p>UIX Designer</p>
+                                    </div>
+                                    <div class="hidden md:block">
+                                        <p class="text-dark6 text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
+
+
+
+    <!-- flowbite js  -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
 </body>
 </html>
