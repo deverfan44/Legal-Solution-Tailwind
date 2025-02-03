@@ -21,6 +21,7 @@
             theme: {
                 extend: {
                 colors: {
+                    primary: '#B68C5A',
                     dark1: '#111111',
                     dark2: '#414040',
                     dark3: '#707070',
@@ -39,6 +40,36 @@
     </script>
 </head>
 <body>
-    
+    <header class="py-5 px-5">
+        <div class="max-w-[1170px] mx-auto">
+            <div class="flex items-center">
+                <a href="#" class="grow">
+                    <img src="./images/logo2.png" alt="">
+                </a>
+                <div class="hidden md:block">
+                    <ul class="flex grow text-dark3 space-x-8 justify-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service
+                            <i class="fa-classic fa-solid fa-angle-right fa-fw"></i>
+                        </a></li>
+                        <li><a href="#">Cases
+                            <i class="fa-classic fa-solid fa-angle-right fa-fw"></i></a></li>
+                        <li><a href="#">Blog
+                            <i class="fa-classic fa-solid fa-angle-right fa-fw"></i></a></li>
+                        <li><a href="#">Contact Us
+                            <i class="fa-classic fa-solid fa-angle-right fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="grow flex justify-end items-center">
+                    <button type="button" class="font-semibold bg-primary text-white py-[12px] px-[18px] mr-3 md:mr-0 md:py-[18px] md:px-[29px] rounded-lg sm:block hidden hover:shadow-md hover:bg-white hover:text-primary border-[1px] border-transparent hover:border-primary duration-300">Free Consultation</button>
+                    <div class="md:hidden block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
